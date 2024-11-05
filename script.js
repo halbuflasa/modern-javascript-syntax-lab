@@ -32,6 +32,12 @@ console.log('car:', car);
 console.log('myCar:', myCar);
 //-------------------------------------------------------------
 console.log(`Exercise 6: `);
+const userProfile = {};
+const propertyName = 'username';
+const propertyValue = 'hessa_albuflasa';
+userProfile[propertyName] = propertyValue;
+console.log(userProfile); 
+
 
 //-------------------------------------------------------------
 console.log(`Exercise 7: `);
