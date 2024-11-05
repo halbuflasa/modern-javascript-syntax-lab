@@ -38,20 +38,47 @@ const propertyValue = 'hessa_albuflasa';
 userProfile[propertyName] = propertyValue;
 console.log(userProfile); 
 
-
 //-------------------------------------------------------------
-console.log(`Exercise 7: `);
-
 //-------------------------------------------------------------
 console.log(`Exercise 8: `);
-
+function describeAnimal(noun='cat', adjective='white'){
+  console.log(`'The ${noun} is ${adjective}.' `);
+ }
+ describeAnimal();
+ describeAnimal('dog', 'brown'); 
+ 
 //-------------------------------------------------------------
 console.log(`Exercise 9: `);
 
+// Convert the following `if...else` statement in to a ternary:
+
+let pizza = 'tasty';
+
+// if (pizza === 'tasty') {
+//   console.log('yum');
+// } else {
+//   console.log('yuck');
+// }
+
+// Your code here
+let pizzaTernary = pizza === 'tasty' ? 'yum': 'yuck';
+console.log(pizzaTernary);
 
 //-------------------------------------------------------------
 console.log(`Exercise 10: `);
+// 1. SET LANGUAGE
+const localLangConfig = null;  
+const LANG = localLangConfig || 'en';
+console.log('Language setting:', LANG);
 
-
+// 2. SET WEBSITE THEME
+const userSavedTheme = null; 
+const USER_THEME = userSavedTheme || 'light';
+onsole.log('User theme setting:', USER_THEME); 
 //-------------------------------------------------------------
 console.log(`Exercise 11: `);
+const adventurer = {
+  name: 'Alice',
+};
+let catAge = adventurer.cat?.age;
+console.log(catAge); 
